@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
+<style>
+	
+	a {
+	color: black;
+}
+
+h1 {
+	font-family: "Kodchasan";
+	}
+h1 a {
+	margin: 20px;
+	color: black;
+	text-decoration: none;
+	}
+h1 a:hover{
+	color: cornflowerblue;
+	}
+
+.nav1 {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 12px;
+	height: 30px;
+	position: fixed;
+	top: 15px;
+	right: 0px;
+}
+
+.nav1 li {
+	display: inline-block;
+	font-size: 12px;
+	padding: 5px;
+	text-decoration: none;
+	font-family: "Kodchasan";
+	color: red;
+	}
+
+.nav1 a:link {
+	text-decoration: none;
+	font-family: "Kodchasan";
+	}
+
+.nav1 a:hover {
+	color: rgb(20, 255, 11);
+	text-decoration: none;
+	font-family: "Kodchasan";
+}
+
+.dropdown {
+
+float: left;
+overflow: hidden;
+list-style-type: none;
+text-align: center;
+height: 30px;
+top: 39px;
+padding: 3px;
+
+}
+
+.dropdown .dropbtn {	
+text-decoration: none;
+font-family: "Kodchasan";
+cursor: pointer;
+border: none;
+outline: none;
+margin: 0;
+background-color:transparent;	
+font-size: 12px;
+text-align: center;
+}
+
+.dropdown-content {
+font-size: 12px;
+display: none; 
+position: absolute; 
+background-color:rgb(20, 255, 11);
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+text-decoration: none;
+display: block;
+top: 15px;
+}
+
+.show {
+display: block;
+}
+
+.row {
+	display: flex;
+	padding: 12px;
+	align-items: center;
+  	justify-content: center; 
+	}
+
+.column {
+	flex: 25%;
+	/*padding: 12px;*/
+	padding: 24px;
+	align-items: center;
+  	justify-content: center; 
+	}
+
+.blurb {
+	font-family: "Kodchasan";
+	font-size: 15px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 15px;
+	margin-left: 500px;
+	margin-right: 500px;
+	color: crimson;
+	background: coral;
+	padding:12px;
+}
+
+img {
+	height: auto;
+	width: 100%;
+	}
+
+.name {
+	color: purple;
+	font-size: 12px;
+	padding: 3px;
+	text-align: center;
+	font-family: "Kodchasan";
+	}
+.name a:link {
+	font-family: "Kodchasan";
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	}
+.name a:hover {
+	font-family: "Kodchasan";
+	color: purple;
+	text-decoration: none;
+	}
+
+</style>
+</head>
+
+
+<h1> <a href="med.html"> HASBROOK GALLERIES </a></h1>
+
+<ul class="nav1">
+	<li><a href = "hyper_contemp_ii.html"> Hyper-Contemporary Act ii </a></li>
+	<li><a href = "return_to_mysticisim.html">Return to Mysticisim</a></li>
+    <li><a href="hyper_contempp.html">Hyper-Contemporary</a></li>
+	<li><a href="viens.html">Viens</a></li>
+	<li><a href="about.html">About</a></li>
+    <!--li-->
+    <div class = "dropdown"> 
+    <button class = "dropbtn" onmouseover="myFunction()"> Past Shows
+    </button>
+    <div class = 'dropdown-content' id = 'myDropdown'>
+        <a href ="contemp_surrealism.html">Contemporary Surrealism</a>
+        <a href="figurations.html">Figurative</a>
+        <a href="unlined.html">Unlined</a>
+        <a href="action_reaction.html">Library</a>
+        <a href="hyper_contempp.html">Hyper-Contemporary</a>
+        <a href="nft.html">nfts</a>
+    </div>
+    </div>
+    <!--/li-->
+</ul>
+
+<div class="row">
+	<div class = "column"></div>
+	<div class="column"; margin-left: 100px>
+		<a href="veins/Nadine_Faraj_2017_Mother_Mother.html">
+		<img src="veins/Nadine Faraj 2017 Mother Mother.jpg"> </a>
+		<div class="name"> <a href="veins/Nadine_Faraj_2017_Mother_Mother.html"> Mother Mother </a></div>
+		<div class="name"> Nadine Faraj </div>
+		<div class="name"> Watercolor </div>
+		<div class="name"> 15"x11" </div>
+	</div>
+	<div class = "column"></div>
+	<div class="column">
+		<a href="veins/Nadine_Faraj_2022_After_Laura.html">
+		<img src="veins/Nadine Faraj 2022 After Laura Aguilar.jpg"> </a>
+		<div class="name"> <a href="veins/Nadine_Faraj_2022_After_Laura.html"> After Laura Aguilar </a></div>
+		<div class="name"> Nadine Faraj </div>
+		<div class="name"> Watercolor </div>
+		<div class="name"> 15"x11" </div>
+	</div>
+	<div class = "column"></div>
+</div>
+
+<div class="row">
+	<div class = "column"></div>
+	<div class="column">
+		<a href="veins/Nadine_Faraj_2022_Seated_Tatted_Angel.html">
+		<img src="veins/Nadine Faraj 2022 Seated Tatted Angel.jpg"> </a>
+		<div class="name"> <a href="veins/Nadine_Faraj_2022_Seated_Tatted_Angel.html"> Seated Tatted Angel </a></div>
+		<div class="name"> Nadine Faraj </div>
+		<div class="name"> Watercolor </div>
+		<div class="name"> 15"x11" </div>
+	</div>
+	<div class = "column"></div>
+	<div class="column">
+		<a href="veins/Nadine_Faraj_2018_More_Intellectual_Than_Intellect.html">
+		<img src="veins/Nadine Faraj 2018  More Intellectual Than Intellect.jpg"> </a>
+		<div class="name"> <a href="veins/Nadine_Faraj_2018_More_Intellectual_Than_Intellect.html"> More Intellectual Than Intellect </a></div>
+		<div class="name"> Nadine Faraj </div>
+		<div class="name"> Watercolor </div>
+		<div class="name"> 15"x11" </div>
+	</div>
+	<div class = "column"></div>
+</div>
+
+
+<div class = "row">
+	<div class="column">
+		<a href="veins/warning_raymond_hwang.html">
+		<img src="veins/warning_raymond_hwang.png"></a>
+		<div class="name"> <a href="veins/warning_raymond_hwang.html"> warning, look both ways before falling </a></div>
+		<div class="name"> Raymond Hwang  </div>
+		<div class="name"> Acrylic and Collage on Canvas </div>
+		<div class="name"> 16” x 20” </div>
+	</div>
+	<div class="column">
+		<a href="veins/mapping_veins_crichton.html">
+		<img src="veins/mapping_veins_crichton.jpg"></a>
+		<div class="name"><a href="veins/mapping_veins_crichton.html">Mapping Veins (2)</a></div>
+		<div class="name"> Sophie Crichton </div>
+		<div class="name"> Acrylic, Spray, Pencil and Pen on Canvas </div>
+		<div class="name"> 39" x 29" </div>
+	</div>
+	<div class="column">
+		<a href="veins/next_year_cooper.html">
+		<img src="veins/next_year_cooper.jpg"></a>
+		<div class="name"><a href="veins/next_year_cooper.html"> Next Year </a></div>
+		<div class="name"> Elizabeth Cooper </div>
+		<div class="name"> Oil and Enamel on Canvas </div>
+		<div class="name"> 16”x20”</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class = "column"></div>
+	<div class="column">
+		<a href="veins/Meeting(1)_Moss_Chloe.html">
+		<img src="veins/Meeting(I)_Moss_Chloe.jpg"></a>
+		<div class="name"><a href="veins/Meeting(I)_Moss_Chloe.html">MEETING (1)</a></div>
+		<div class="name"> Chloe Moss </div>
+		<div class="name"> see link </div>
+		<div class="name"> 36” x 36” </div>
+	</div>
+	<div class="column">
+		<a href="veins/Travellers(1)_Moss_Chloe.html">
+        <img src="veins/Travellers(I)_Moss_Chloe  .jpg"></a>
+        <div class="name"><a href="veins/Travellers(I)_Moss_Chloe.html">TRAVELLERS (1)</a></div>
+        <div class="name"> Chloe Moss </div>
+        <div class="name"> see link </div>
+        <div class="name"> 36” x 48” </div>
+	</div>
+	<div class = "column"></div>
+</div>
+
+<div class = "row">
+	<div class="column">
+		<a href="veins/reconstruction_leav.html">
+		<img src="veins/reconstruction_leav.jpg"></a>
+		<div class="name"><a href="veins/reconstruction_leav.html">Reconstruction </a></div>
+		<div class="name"> Alex Leav </div>
+		<div class="name"> Pastel on Paper </div>
+		<div class="name"> 19”x23” </div>
+	</div>
+	<div class="column">
+		<a href="veins/refined_leav.html">
+		<img src="veins/refined_leav.jpg"> </a>
+		<div class="name"><a href="veins/refined_leav.html"> Refined <a></div>
+		<div class="name"> Alex Leav </div>
+		<div class="name"> Pastel on Paper </div>
+		<div class="name"> 19”x23”</div>
+	</div>
+	<div class="column">
+		<a href="veins/everybody_was_a_story_leav.html">
+		<img src="veins/everybody_was_a_story_leav.jpg"> </a>
+		<div class="name"><a href="contemp_surrealism/untitled_mistele.html">Everybody Was A Story</a></div>
+		<div class="name"> Alex Leav </div>
+		<div class="name"> Oil on Canvas </div>
+		<div class="name">36”x36”</div>
+	</div>
+</div>
+
+	<div class = "row">
+		<div class = "column"></div>
+		<div class = "column">
+			<a href = "veins/flow_pugs_atomz.html">
+			<img src = "veins/flow_pugs_atomz.jpeg"></a>
+			<div class="name"><a href = "veins/flow_pugs_atomz.html"> Flow </a></div>
+			<div class="name">Pugs Atomz</div>
+			<div class = "name"> Acrylic / Crayon / Paper on Canvas Board </div>
+			<div class = "name"> 16"x 20" </div>
+		</div>
+		<div class = "column"></div>
+	</div>
+
+	
+</html>
+
+
+<script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onmouseover = function(e) {
+      if (!e.target.matches('.dropbtn') && !e.target.matches('.dropdown-content a')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+</script>

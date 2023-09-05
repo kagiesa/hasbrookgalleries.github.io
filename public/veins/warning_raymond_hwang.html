@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Kodchasan" 
+		rel="stylesheet">
+	<link rel="stylesheet" type="text/css"
+		href="../hasbrook_pages_formatting.css">
+</head>
+<h1> <a href="../veins.html"> HASBROOK GALLERIES </a> </h1>
+
+<ul class="nav1">
+	<li><a href = "../hyper_contemp_ii.html"> Hyper-Contemporary Act ii </a></li>
+	<li><a href = "../return_to_mysticisim.html">Return to Mysticisim</a></li>
+    <li><a href="../hyper_contempp.html">Hyper-Contemporary</a></li>
+	<li><a href="../veins.html">Viens</a></li>
+	<li><a href="../about.html">About</a></li>
+    <div class = "dropdown"> 
+    <button class = "dropbtn" onmouseover="myFunction()"> Past Shows
+    </button>
+    <div class = 'dropdown-content' id = 'myDropdown'>
+        <a href ="../contemp_surrealism.html">Contemporary Surrealism</a>
+        <a href="../figurations.html">Figurative</a>
+        <a href="../unlined.html">Unlined</a>
+        <a href="../action_reaction.html">Library</a>
+        <a href="../hyper_contempp.html">Hyper-Contemporary</a>
+        <a href="../nft.html">nfts</a>
+    </div>
+    </div>
+</ul>
+
+
+<div class="row">
+	<div class="col">
+	<img class="work" src="warning_raymond_hwang.png">
+	</div>
+	<div class="col">
+	<h1> warning, look both ways before falling </h1>
+	<h2> Raymond Hwang </h2>
+	<h3> Acrylic and Collage on Canvas </h3>
+	<h4> 16” x 20” </h4>
+	<p2> About the Work :: Ray Hwang (b. 1992) is an artist from Los Angeles, currently living and working out of Ridgewood, NY. His work consists primarily of acrylic painting and drawing, in which he uses symbols from throughout his personal history to explore themes of family, home and inter-cultural contradiction. He received his BFA from the School of Visual Arts in 2016 and has participated in exhibitions in Los Angeles, Denver, Philadelphia, New Jersey and throughout New York City. He has been featured most recently with Art Maze Magazine, Vast Magazine, and was a recipient of both the Keyholder Residency at the Lower East Side Printshop in New York and the Plum Lime Residency in Brooklyn. He has shown recently with Tube Culture Hall (Milan, Italy), LaiSun Keane Gallery (Boston, MA), 11 Newel Gallery (Brooklyn, NY), and at the Spring/ Break Art Show (New York, NY). He opened his first solo exhibition in New York with Latitude Gallery (New York, NY) earlier this year. </p2>
+	<div class="paylink"><a href="mailto:hasbrookgalleries@gmail.com">contact for purchase</a></div>
+</div>
+</div>
+</html>
+
+<script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onmouseover = function(e) {
+      if (!e.target.matches('.dropbtn') && !e.target.matches('.dropdown-content a')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+</script>
