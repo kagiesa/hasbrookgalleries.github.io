@@ -168,28 +168,37 @@ a:hover {
     background-image: url("hyper_contemp_promo.png");
 }
 
-.test {
-	display: flex;
+.outside {
 	margin-top: 3%;
 	margin-left:100px;
-	padding:20px;
+	padding:60px;
+	display:flex;
+}
+
+.to-the-left{
+	margin-top:50px;
+}
+.to-the-right{
+	margin-left:200px;
+}
+.inner{
+	margin-top:50px;
+	margin-left:15%;
 }
 </style>
 </head>
 
 <body>
-	<div class = test>
-	<a href="hyper_contemp_ii.html">
-		<img src="hyper_contemp_ii-PhotoRoom.png-PhotoRoom.png" width="600">
-	</a>
-	<div>
-		<a href="veins.html">
-			<img src="veins_for_site.png">
-		</a>
-		<a href="return_to_mysticisim.html">
-			<img src="return_font.PNG" width="400">
-		</a>
-	</div></div>
-
+<div class = outside>
+	<div class = to-the-left>
+	<a href="hyper_contemp_ii.html"><img src="hyper_contemp_ii-PhotoRoom.png-PhotoRoom.png" width="600"></a>
+	</div>
+	<div class = to-the-right>
+		<a href="veins.html"><img src="veins_for_site.png"></a>
+		<div class = inner>
+		<a href="return_to_mysticisim.html"><img src="return_font.PNG" width="400"></a>
+		</div>
+	</div>
+</div>
 </body>
 </html>
